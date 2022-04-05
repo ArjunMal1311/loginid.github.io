@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign In</title>
+  <link href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+  <style>
+    body {
+        background-color: rgb(22, 22, 22);
+        background-image: url("https://64.media.tumblr.com/43a89ec657d97f4ca7da39431abe6fc1/361607c1aa3342b5-19/s1280x1920/1406877c61d399c6cc920cac0fa085d3d548a628.gifv");
+        background-repeat: no-repeat;
+        background-position: 487px -172px;
+        background-size: 78%;
+      }
+      
+    .container {
+        background-color: #313030;
+        border: 2px solid white;
+        margin: -150px 72px;
+        padding: 39px;
+        width: 33%;
+        border-radius: 28px;
+      }
+    .box{
+        /* border: 2px solid red; */
+        width: 983px;
+        margin-left: 200px;
+        margin-top: 78px;
+        height: 340px;
+        background-image: url('https://www.ssitvit.tech/img/logo.png');
+        background-size: 35%;
+        background-repeat: no-repeat;
+    }
+
+    .form-group input {
+      font-family: 'Roboto Mono', monospace;
+      text-align: center;
+      display: block;
+      width: 420px;
+      height: 22px;
+      padding: 1px;
+      border: 2px solid black;
+      margin: 15px auto;
+      font-size: 15px;
+      border-radius: 15px;
+    }
+
+    .form-group :hover{
+      box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #9eacaf, 0 0 20px #8c9da0, 0 0 20px #73878a, 0 0 30px #77878a;
+    }
+    
+    .container h1 {
+      color: white;
+      text-align: center;
+      font-family: 'Bebas Neue', cursive;
+    }
+
+    .container button {
+        display: block;
+        width: 20%;
+        margin: 20px auto;
+    }
+
+    .btn{
+      cursor: pointer;
+      background: #929597;
+      color: #fff;
+      border: 1px solid #eee;
+      border-radius: 20px;
+      box-shadow: 1px 1px 1px #eee;
+      text-shadow: none;
+    }
+
+    .btn:hover {
+      /* background: #545759; */
+      background: transparent;
+      color: #fff;
+      border: 1px solid #eee;
+      border-radius: 20px;
+      box-shadow: 1px 1px 1px #eee;
+      text-shadow: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+
+  </div>
+  <div class="container">
+    <h1>Welcome, Sign In</h1>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Username">
+        </div>
+
+        <div class="form-group">
+            <input type="password" name="" placeholder="Password">
+        </div>
+
+        <button class="btn">Submit</button>
+    </form>
+</div>
+</body>
+
+</html>
